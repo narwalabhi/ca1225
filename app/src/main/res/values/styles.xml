@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<style parent="Widget.AppCompat.Button" name="ScoreButton">
+    <item name="android:background">
+        @drawable/shape
+    </item>
+</style>
+
+    <style parent="ScoreButton" name="Plusbutton">
+
+    </style>
+
+    <style parent="ScoreButton" name="Minusbutton">
+
+    </style>
+    <style name="TeamName">
+        <item name="android:textAppearance">
+            @style/TextAppearance.AppCompat.Display1
+        </item>
+
+    </style>
+    <style parent="TextAppearance.AppCompat.Headline" name="ScoreText">
+
+        <item name="android:layout_width">
+            wrap_content
+        </item>
+        <item name="android:layout_height">
+            wrap_content
+        </item>
+        <item name="android:layout_centerInParent">
+            true
+        </item>
+    </style>
+</resources>
